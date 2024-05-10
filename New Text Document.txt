@@ -1,0 +1,5 @@
+Day one:(05/05/23)
+Python data type 
+   numerical data type.
+   Non-numerical.
+   List, Set, Tuple,Dic.
