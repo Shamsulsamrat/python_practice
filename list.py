@@ -44,3 +44,4 @@ x_list=[12,12.09,"COW","DOG","CAT","COW","DOG",]
 x_list.pop()
 print(x_list)
 
+
