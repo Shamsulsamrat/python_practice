@@ -45,3 +45,44 @@ x_list.pop()
 print(x_list)
 
 
+dict= {'norway': 'oslo', 'germany': 'berlin', 'france': 'paris', 'spain': 'madrid'}
+if "germany" in dict:
+    print("yes")
+else:
+    print("NOP")
+for key in dict.keys():
+    print(key.upper())
+    
+for val in dict.values():
+    print(val)
+    
+#list compession 
+x_list=["AZAD","COW","DOG","CAT","COW","DOG"]
+b_list=[x for x in x_list if "O" in x ]
+print(b_list)
+
+#List sort , Reverse,Lower ,Upper
+x_list=["azad","cow","dog","cat","cow","dog"]
+x_list.sort()
+print(x_list)
+
+x_list=["azad","cow","dog","cat","cow","dog"]
+x_list.sort(reverse=True)
+print(x_list)
+
+x_list=["azad","Cow","dog","Cat","cow","Dog"]
+x_list.sort(key=str.lower)
+print(x_list)
+
+#Copy list
+x_list=["azad","Cow","dog","Cat","cow","Dog"]
+z=x_list.copy()
+print(z)
+
+#count List
+x_list=["azad","Cow","dog","Cat","cow","Dog","dog"]
+print(x_list.count("dog"))
+
+#index number
+x_list=["azad","Cow","dog","Cat","cow","Dog","dog"]
+print(x_list.index("Cow"))
