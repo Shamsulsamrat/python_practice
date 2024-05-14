@@ -86,3 +86,25 @@ print(x_list.count("dog"))
 #index number
 x_list=["azad","Cow","dog","Cat","cow","Dog","dog"]
 print(x_list.index("Cow"))
+
+x_list=[{"name":"Azad","age":32},
+        {"name":"Bithi","age":30},
+        {"name":"Samrat","age":26}
+        ]
+for x in x_list:
+    print(x["name"],x["age"])
+    
+    
+a=["sam"]
+b=["azas","b"]
+a.append(b)
+print(a)
+
+
+
+x=[100,200,50,90,80,700,120,"9","s","z"] #which values are str put them in z list.
+z=[]
+for d in x:
+    if type(d) == str:
+        z.append(d)
+print(z)
