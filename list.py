@@ -108,3 +108,7 @@ for d in x:
     if type(d) == str:
         z.append(d)
 print(z)
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+z=[fruits.upper() for fruit in fruits]
+print(z)
