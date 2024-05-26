@@ -35,7 +35,7 @@ Output: [0,1]"""
 #     print(result)
     
     
-#Numbers = [1,2,1,1,5,6,6]. How to remove duplicates from the number list
+# 9 Numbers = [1,2,1,1,5,6,6]. How to remove duplicates from the number list
 num=[1,2,1,1,5,6,6]
 num_set=set(num)
 print(num_set)
