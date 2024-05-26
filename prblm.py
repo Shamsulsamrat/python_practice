@@ -18,8 +18,6 @@
 #   for i in range(1, 11):
 #     print(num*i)  
 
-
-
 # value_list= [12,33,44,55,66,77,88]
 input_list=[11,22,33,90,80,70,12]
 # for x in input_list:
@@ -31,9 +29,7 @@ input_list=[11,22,33,90,80,70,12]
 my_list = [12,33,44,55,66,77,88]
 for x in input_list:
   value_to_find = x
-
   indexes = [i for i, element in enumerate(my_list) if element == value_to_find]
-
   if indexes:
     print(f"The indices of {value_to_find} are: {indexes}")
   else:
