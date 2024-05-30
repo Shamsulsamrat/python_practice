@@ -64,3 +64,41 @@ duck = Duck()
 # Using polymorphism to make each animal sound
 for animal in [dog, cat, cow, duck]:
     make_animal_sound(animal)
+    
+    
+    
+    
+class Project:
+    def __init__(self,name,deadline):
+        self.name=name
+        self.deadline=deadline
+
+    def printname(self):
+         print(f"The project name {self.name} and deadline is {self.deadline}")
+
+
+class Software(Project):
+    def __init__(self, name, deadline,language):
+        super().__init__(name, deadline)  
+        self.language=language 
+    
+    def printname(self):   
+        print(f"The project name {self.name} and deadline is {self.deadline}.The project language is {self.language}")
+        
+
+class Reserach(Project):
+    def __init__(self, name, deadline,field_of_study):
+        super().__init__(name, deadline)  
+        self.field_of_study=field_of_study
+    
+    def printname(self):   
+        print(f"The project name {self.name} and deadline is {self.deadline}.The project on {self.field_of_study}")
+
+project=Project("ritten","31")
+software = Software('vscode','30', 'python')
+research = Reserach('DS', '31', 'Graph')
+
+for i in [project,software, research]:
+    i.printname()
+
+
